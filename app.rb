@@ -86,6 +86,10 @@ post '/visit' do
   @barber_select = params[:barber_select]
   @color = params[:hair_color]
 
+  if username == ''
+    @error = 'Введите имя!'
+  end
+
 
   f = File.open './public/users.txt', 'a'
   f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@date_time}. Barber: #{@barber_select}\n"
