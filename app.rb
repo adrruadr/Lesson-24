@@ -86,8 +86,23 @@ post '/visit' do
   @barber_select = params[:barber_select]
   @color = params[:hair_color]
 
-  if username == ''
+  if @username == ''
     @error = 'Введите имя!'
+    
+  end
+
+    if @phone == ''
+    @error = 'Введите номер телефона!'
+    
+  end
+
+   if @date_time == ''
+    @error = 'Введите дату и время!'
+    
+  end
+
+  if @error != ''
+    erb :visit
   end
 
 
