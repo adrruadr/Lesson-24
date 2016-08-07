@@ -3,17 +3,17 @@
 <form action="/visit" method="POST">
   <div class="form-group">
     <label >Ваше имя</label>
-    <input name="user_name" type="text" class="form-control"  placeholder="имя">
+    <input name="user_name" type="text" class="form-control"  placeholder="имя" value = "<%= @username %>">
   </div>
 
   <div class="form-group">
     <label >Ваш телефон</label>
-    <input name="user_phone" type="text" class="form-control"   placeholder="телефон">
+    <input name="user_phone" type="text" class="form-control"   placeholder="телефон" value = "<%= @phone %>">
   </div>
 
   <div class="form-group">
     <label >Когда вас ждать?</label>
-    <input name="date_time" type="text" class="form-control"   placeholder="дата и время">
+    <input name="date_time" type="text" class="form-control"   placeholder="дата и время" value = "<%= @datetime %>">
   </div>
 
 <div class="form-group">

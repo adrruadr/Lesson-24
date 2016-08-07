@@ -7,3 +7,6 @@ User: Adrenaline, Phone: 752-11-10, Date and time: 14 august 2016 23:50. Barber:
 User: Adrenaline, Phone: 666-33-22, Date and time: 25/04/2017 00:30. Barber: Jessie Pinkman
 User: , Phone: , Date and time: . Barber: Walter White
 User: , Phone: , Date and time: . Barber: Walter White
+User: , Phone: , Date and time: . Barber: Walter White
+User: Adrenaline, Phone: , Date and time: . Barber: Walter White
+User: Adrenaline, Phone: , Date and time: . Barber: Walter White
